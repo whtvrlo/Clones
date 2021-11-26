@@ -1,0 +1,307 @@
+body {
+  padding-top: 0mm;
+  background-color: rgb(80, 69, 69);
+  margin-right: 0px;
+}
+
+/* OUT NOW ORDER / LISTEN */
+h4 {
+  color: rgb(226, 226, 226);
+  margin-top: 8mm;
+  margin-bottom: 3mm;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.3vw;
+  padding-bottom: 5mm;
+  font-size: 1.7rem;
+}
+
+a {
+  color: #efefef;
+  padding-top: 3mm;
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+  line-height: 1px;
+}
+
+a:hover {
+  color: #efefef;
+  text-decoration: underline;
+}
+
+/* INTROMAIN BIT */
+
+.linkstore {
+  font-family: "Orbitron", sans-serif;
+  color: #efefef;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  padding-top: 0mm;
+  padding-right: 3mm;
+}
+
+.logo-name {
+  color: #efefef;
+  width: 50vw;
+  display: flex;
+  line-height: 5mm;
+  margin-top: 10mm;
+}
+
+#logotitle {
+  color: #efefef;
+  width: 40vw;
+  margin-top: 5mm;
+  margin-bottom: 15mm;
+  line-height: 0px;
+}
+
+.intro-main {
+  color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* PHOTOROWS */
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-between;
+  margin-top: 0px;
+  margin-left: 10px;
+  padding-right: 0mm;
+}
+
+.mainintro {
+  background-color: chartreuse;
+}
+
+/* PHOTO ROWS */
+
+.row1 {
+  background-color: blue;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 4950px;
+  margin: 5px;
+}
+
+.row1 div {
+  padding-bottom: 3mm;
+}
+
+.row2 {
+  background-color: rgb(255, 251, 0);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 4950px;
+  margin: 5px;
+}
+
+.row2 div {
+  padding-bottom: 3mm;
+}
+
+.row3 {
+  background-color: rgb(255, 0, 191);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 4950px;
+  margin: 5px;
+}
+
+.row3 div {
+  padding-bottom: 3mm;
+}
+
+.photo-gallery div {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+/* FORM */
+/* _______________________set bg color to see box */
+.tocentertheform {
+  background-color: rgba(205, 92, 92, 0);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+/* SET BACKGROUND COLOR TO SEE */
+form {
+  background-color: rgb(67, 212, 0);
+  margin-top: 0px;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+}
+
+/* sign up & submit: */
+form fieldset {
+  background-color: rgba(6, 6, 173, 0);
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin-top: 4mm;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+}
+
+.formlayout {
+  background-color: red;
+  width: 100%;
+  height: 1000px;
+}
+
+.fieldset input {
+  color: #efefef;
+}
+
+/* display: flex;
+
+color: #efefef#fffwhitesmokehsl(0, 0%, 93%) rgb(239, 239, 239);
+background-color: black;
+margin-top: 6vw;
+height: 3vw;
+display: flex;
+padding-top: 0mm; */
+
+/* BLACK TEXTBOX  */
+input[type="text"] {
+  background-color: black;
+  color: #efefef;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: white;
+}
+
+/* submit button */
+.submitbutton [name] {
+  margin-top: -30px;
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  background-color: #dcfff2;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.submitbutton {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.submitbutton input {
+  color: black;
+  border-style: none;
+}
+
+.submitbutton :hover {
+  color: orange;
+  text-decoration: none;
+}
+
+button {
+  background-color: rgba(10, 10, 10, 0);
+  font-family: arial, sans-serif;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 0.5rem;
+}
+
+button a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.namebox {
+  font-family: arial, sans-serif;
+  background-color: rgb(0, 255, 255);
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 6mm;
+  color: black;
+  font-size: 16px;
+}
+
+form fieldset {
+  border-style: none;
+}
+
+.tocentertheform [type="checkbox"] {
+  color: red;
+}
+.tocentertheform ::placeholder {
+  color: grey;
+}
+
+/* TEXT TICKBOX */
+.tocentertheform .texttickbox {
+  color: whitesmoke;
+}
+
+.beggars {
+  display: flex;
+  justify-content: center;
+}
+
+.socialbuttons {
+  margin: 5mm;
+  background-color: rgba(240, 128, 128, 0);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.socialbuttons a {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
+.socialbuttons a :hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
